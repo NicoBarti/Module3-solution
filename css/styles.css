@@ -19,13 +19,21 @@
 	border-color: #000080;
 }
 
+/*Color de las lineas del boton superior*/
+#botonsup span{
+	background-color: #000080;
+}
+
+/*Sombreado al activar o hover boton suprior*/
 #botonsup:hover, #botonsup:focus{
 	background-color: #b3cbff;
 }
 
-#botonsup span{
-	background-color: #000080;
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	background-color: #b3cbff;
+	color:#000099;
 }
+
 
 #brand-name{
 	font-weight: bold;
@@ -46,12 +54,9 @@
 	padding: 0;
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
-	background-color: transparent;
-	color:#000099;
-}
 
-.navbar-default .navbar-nav>li>a{
+/*Color del texto en barra desplegable*/
+.navbar-default .navbar-nav>li>a{ 
 	color: #000099;
 }
 
@@ -62,18 +67,20 @@
 
 /*Cuerpo de la pagina*/
 
-#seccion{
-	font-size: 1.5em;
+#chicken, #beef, #sushi{
+	font-size: 1.3em;
 	text-align: center;
 	padding: 2px;
 	font-weight: bold;
 	color: #000080;
+	margin-bottom: 11px;
 }
 
 #home-tiles{
 	background-color: #e6eeff;
-	padding: 10px;
-	/*margin: 5px;*/
+	padding: 20px;
+	padding-color: white;
+	border: 10px solid white;
 
 }
 
@@ -90,6 +97,11 @@
 #contenido{
 		background-color: white;
 
+}
+
+#volver {
+	text-align: center;
+	margin-top: 15px;
 }
 
 
