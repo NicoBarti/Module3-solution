@@ -46,7 +46,7 @@
 #collapsable-nav{
 	margin-top: 50px;
 	text-align: center;
-	background-color: white;
+	background-color: #d1d1e0;
 	font-size: 1.8em;
 }
 
@@ -95,6 +95,7 @@
 
 #contenido{
 		background-color: white;
+		margin: 10px;
 
 }
 
